@@ -21,11 +21,11 @@ import {XLarge} from './directives/x-large';
   // We need to tell Angular's compiler which custom pipes are in our template.
   pipes: [ ],
   // Our list of styles in our component. We may add more to compose many styles together
-  styles: [ require('./home.css') ],
+  styles: [ require('./home.style.css') ],
   // Every Angular template is first compiled by the browser before Angular runs it's compiler
-  template: require('./home.html')
+  template: require('./home.view.html')
 })
-export class Home {
+export class HomeComponent {
   // Set our default values
   data = { value: '' };
   // TypeScript public modifiers

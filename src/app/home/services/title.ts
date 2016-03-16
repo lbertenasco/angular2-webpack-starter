@@ -10,7 +10,7 @@ export class Title {
 
   getData() {
     console.log('Title#getData(): Get Data');
-    // return this.http.get('/assets/data.json')
+    // return this.http.get('/assets/mock/data.json')
     // .map(res => res.json());
     return {
       value: 'AngularClass'
