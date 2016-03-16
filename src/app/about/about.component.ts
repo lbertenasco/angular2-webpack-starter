@@ -12,7 +12,7 @@ console.log('`About` component loaded asynchronously');
   selector: 'about',
   template: `patrick@AngularClass.com`
 })
-export class About {
+export class AboutComponent {
   constructor() {
 
   }

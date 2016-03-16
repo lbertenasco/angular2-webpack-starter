@@ -19,6 +19,6 @@ if ('production' === ENV) {
 
 } else {
   // Development
+  require('rxjs/Rx')
 
 }
-
